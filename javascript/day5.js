@@ -6,7 +6,8 @@
 
 (2). Non-primitive datatypes(refrence):- 
 
-(a)Object (b) Array (c) Functions
-time 1ghanta 46 min
+(a)Array (b)Object (c) Functions
+
+(a)Array:-  
 
 */
