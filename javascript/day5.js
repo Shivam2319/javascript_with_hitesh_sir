@@ -16,13 +16,14 @@ let myObj = {
     age:22,
 }
 // function:-
+/*
 const myFunction= function(){
     console.log("hello world");
 }
 console.log(typeof(myFunction)) //typeof is used to know the type of datatypes
 console.log(typeof(myObj)) //typeof is used to know the type of datatypes
 console.log(typeof(heroes)) //typeof is used to know the type of datatypes
-
+*/
 
 
 
@@ -30,7 +31,23 @@ console.log(typeof(heroes)) //typeof is used to know the type of datatypes
 //  stack(stack memory is to allocate memory when we use primitive datatypes) 
 //  heap (heap memory is to allocate memory when we use Non primitive datatypes)
 // stack:-
-
+/*
 let myYoutubeName = "studyyy adda";
 let anotherName = myYoutubeName;
 console.log(anotherName);
+*/
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++String++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+const name = "shivam"
+let course = "javascript"
+console.log(`hello i am ${name} and i am eager to learn ${course}`);
+
+// we can also write or declare  string in another method that is
+
+let games = new String('Gerena free fire');
+console.log(games);
+// we can also access string by its indexing value
+console.log(games[0]);
+// .charCodeAt is used for knowing the ascii code of given alphabet accessed by its index value
+console.log(games.charCodeAt(0));
