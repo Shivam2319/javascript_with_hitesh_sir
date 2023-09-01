@@ -6,8 +6,31 @@
 
 (2). Non-primitive datatypes(refrence):- 
 
-(a)Array (b)Object (c) Functions
+(a)Array (b)Object (c) Functions*/
 
-(a)Array:-  
+// (a)Array:-  
+const heroes = ["shaktimaan" , "Naagraj", "bhola"] ;
+// (b) object:-
+let myObj = {
+    name : "shivam",
+    age:22,
+}
+// function:-
+const myFunction= function(){
+    console.log("hello world");
+}
+console.log(typeof(myFunction)) //typeof is used to know the type of datatypes
+console.log(typeof(myObj)) //typeof is used to know the type of datatypes
+console.log(typeof(heroes)) //typeof is used to know the type of datatypes
 
-*/
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//  stack(stack memory is to allocate memory when we use primitive datatypes) 
+//  heap (heap memory is to allocate memory when we use Non primitive datatypes)
+// stack:-
+
+let myYoutubeName = "studyyy adda";
+let anotherName = myYoutubeName;
+console.log(anotherName);
