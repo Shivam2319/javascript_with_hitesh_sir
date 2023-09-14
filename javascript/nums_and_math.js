@@ -75,3 +75,6 @@ console.log((Math.random()*10)+1);
 const min = 10;
 const max = 20;
 console.log(Math.floor(Math.random() * (max-min+1) +min));
+
+console.log(Math.trunc(79.654));//The Math.trunc() static method returns the integer part of a number by removing any fractional digits.
+console.log(Math.cbrt(3));//The Math.cbrt() static method returns the cube root of a number.
