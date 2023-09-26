@@ -35,7 +35,7 @@ console.log(negValue); // output is -3
 // The JavaScript comparison operator compares the two operands. The comparison operators are as follows:
 /* Operator     	    Description	                                 Example
     ==	                Is equal to	                                10==20 = false
-    ===	            Identical (equal and of same type)	            10==20 = false
+    ===	            Identical (equal and of same type)	            10===20 = false
     !=	                Not equal to	                            10!=20 = true
     !==	                Not Identical	                            20!==20 = false
     >	                Greater than	                            20>10 = true
